@@ -14,7 +14,7 @@
 ![Menu](/assets/images/project-photos/projeto-2.png  "Mobile")
 
 ## Desafios
-- Eu não conhecia a propriedade flex-direction, o que me fez ir por um caminho mais longo para atingir o resultado desejado nos cards invertidos, porém no essa propriedade foi fundamental para a responsividade dessa seção do código.
+- Eu não conhecia a propriedade flex-direction, o que me fez ir por um caminho mais longo para atingir o resultado desejado nos cards invertidos, porém essa propriedade foi fundamental para a responsividade dessa seção do código.
 - Foi difícil adequar os tamanhos dos elementos na tela de largura menor que 375px, o que me levou a reescrever diversos trechos de código, mas fica o aprendizado para desenvolver a versão desktop já tendo em mente a versão mobile.
 - Aprendi a estilizar cores com HSL
 - Utilizar a propriedade box-shadow nos cards agregou conhecimentos de design.
