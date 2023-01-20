@@ -3,7 +3,7 @@
 - Este projeto não utiliza Bootstrap ou outra tecnologia de estilização, apenas HTML e CSS "puros".
 - Projeto testado nos navegadores Google Chrome versão 109.0.5414.75 e Microsoft Edge versão 109.0.1518.55.
 
->![Menu](/assets/images/projeto-1.png  "Desktop")
+>![Menu](/assets/images/project-photos/projeto-1.png  "Desktop")
 
 ## Execução
 - Deve-se abrir o arquivo index.html na raiz do projeto no seu navegador.
@@ -11,7 +11,7 @@
 ## Status
 - Projeto finalizado.
 
-![Menu](/assets/images/projeto-2.png  "Mobile")
+![Menu](/assets/images/project-photos/projeto-2.png  "Mobile")
 
 ## Desafios
 - Eu não conhecia a propriedade flex-direction, o que me fez ir por um caminho mais longo para atingir o resultado desejado nos cards invertidos, porém no essa propriedade foi fundamental para a responsividade dessa seção do código.
@@ -21,4 +21,4 @@
 - Aprendi a importar fontes do Google Fonts
 - Nova estratégia de organização do CSS (listando propriedades por familiaridade ao invés de por ordem alfabética) 
 
-![Menu](/assets/images/projeto-3.png  "Mobile")
+![Menu](/assets/images/project-photos/projeto-3.png  "Mobile")
