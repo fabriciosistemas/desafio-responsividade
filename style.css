@@ -1,0 +1,255 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-image: url("./assets/images/bg-hero-desktop.svg");
+  margin-bottom: 20vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 5vh 5vw;
+}
+
+.logo {
+  display: flex;
+  height: 4vh;
+  margin-top: 4vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-text {
+  font-family: "Open Sans", sans-serif;
+  color: hsl(192, 100%, 9%);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: -0.005em;
+  border-color: #dddddd;
+  border-radius: 25px;
+  border-style: solid;
+  box-shadow: 0px 0px 10px #dddddd;
+  background-color: #ffffff;
+  padding: 2vh 6vw;
+}
+
+.title-region {
+  display: flex;
+  align-items: center;
+  padding: 5vh 5vw;
+}
+
+.title {
+  font-family: "Poppins", sans-serif;
+  color: hsl(192, 100%, 9%);
+  font-size: 38px;
+}
+
+.summary {
+  font-family: "Open Sans", sans-serif;
+  color: hsl(192, 100%, 9%);
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.btn-title {
+  font-family: "Open Sans", sans-serif;
+  color: hsl(193, 100%, 96%);
+  font-weight: 700;
+  border-style: solid;
+  border-radius: 25px;
+  background-color: hsl(322, 100%, 66%);
+  max-width: 15vw;
+  margin-right: 0px;
+  padding: 2vh 5vw;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-color: #dddddd;
+  border-radius: 25px;
+  border-style: solid;
+  box-shadow: 0px 0px 10px #dddddd;
+  margin: 0vh 5vw 5vh;
+}
+
+.image-card {
+  margin: 5vh 15vw;
+}
+
+.card-title {
+  font-size: 22px;
+}
+
+.card-side-a {
+  margin-left: 15vh;
+}
+
+.card-text {
+  color: hsl(208, 11%, 55%);
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.card-side-b {
+  margin: 5vh 3vw;
+}
+
+.floating-card {
+  display: flex;
+  justify-content: center;
+}
+
+.floating-card-title {
+  text-align: center;
+} 
+
+footer {
+  color: hsl(208, 11%, 55%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: hsl(192, 100%, 9%);
+  margin: 0px;
+  padding: 10vh 8vw;
+}
+
+.majority-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-beside-icon {
+  display: flex;
+  justify-content: left;
+  width: 30vw;
+}
+
+.internal-element {
+  align-items: center;
+  margin-left: 1vw;
+}
+
+.special {
+  margin-top: 8vh;
+}
+
+.copyright {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 10px;
+}
+
+@media (max-width: 375px) {
+  header {
+    background-image: url("./assets/images/bg-hero-mobile.svg");
+  }
+
+  .title-region {
+    display: block;
+    padding: 5vh 5vw 0vw;
+  }
+
+  .title {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .summary {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .btn-title {
+    max-width: 50vw;
+    margin: 0 auto;
+  }
+
+  .img-mockups {
+    display: flex;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    margin: 0 8vw 5vh;
+  }
+
+  .reverse {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0 8vw 5vh;
+  }
+
+  .image-card {
+    display: flex;
+    width: 60vw;
+    margin: 6vh auto;
+  }
+
+  .card-text {
+    font-size: 14px;
+  }
+
+  .text-side {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .card-side-a {
+    margin: 0 auto;
+    padding: 5vh 8vw;
+  }
+
+  .card-side-b {
+    margin: 0 auto;
+    padding: 5vh 8vw;
+  }
+
+  .mockups {
+    width: 80vw;
+    margin: 10vh auto;
+  }
+
+  .card {
+    border-color: #dddddd;
+    border-style: solid;
+    box-shadow: 0px 0px 10px #dddddd;
+  }
+
+  .majority-footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20vh;
+  }
+
+  .text-beside-icon {
+    width: 100%;
+  }
+
+  .floating-card {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .floating-card-title {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 4vh;
+  }
+
+  .social {
+    margin: 0 auto;
+  }
+
+  .copyright {
+    justify-content: center;
+  }
+}
